@@ -1,0 +1,23 @@
+/* layout.css */
+.grid-container {
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container {
+    background: #262626;
+    color: azure;
+    margin: 40px;
+    padding: 40px;
+    width: 50vw;
+    border: 50px solid #c76262;
+    border-radius: 1rem;
+}

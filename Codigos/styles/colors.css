@@ -1,0 +1,19 @@
+/* colors.css */
+:root {
+    /* Colores actuales que conservas */
+    --primary-color: #40E0D0; /* Azul turquesa para botones, enlaces, etc. */
+    --secondary-color: #262626; /* Gris oscuro para textos o fondos */
+    --accent-color: #FFFFFF; /* Blanco para contraste */
+    --text-color: #000000; /* Negro para textos principales */
+    --footer-bg-color: #161616; /* Gris oscuro para el footer */
+    --footer-text-color: #B4B4B4; /* Gris claro para texto en footer */
+    --button-login-bg: var(--primary-color); /* Botón de login con el color principal */
+    --button-logout-bg: #BC0505; /* Rojo para logout */
+    --button-login-hover-bg: #2ECCB1; /* Variante más oscura para hover del login */
+    --button-logout-hover-bg: #F80606; /* Variante más oscura para hover del logout */
+
+    /* Nuevos colores de tu paleta */
+    --accent-magenta: #A91D8D; /* Rosa magenta oscuro para acentos */
+    --background-pastel: #FFE5FF; /* Rosa pastel claro para fondos */
+    --neutral-lavender: #AB869F; /* Lavanda grisácea para textos o detalles */
+}

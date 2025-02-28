@@ -1,0 +1,108 @@
+/* components.css */
+.title.text {
+    color: var(--neutral-lavender); /* Lavanda grisácea para títulos, pero manteniendo tu paleta original si prefieres, puedes cambiar a aliceblue */
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#bts {
+    color: var(--primary-color); /* Azul turquesa para acentos, ajustando por consistencia */
+}
+
+footer {
+    color: var(--footer-text-color);
+    background: var(--footer-bg-color);
+    margin-top: 3rem;
+    padding: 2.5rem;
+}
+
+.button {
+    height: 30px;
+    width: 70px;
+    border: 0px;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.button-login {
+    background-color: var(--button-login-bg);
+}
+
+.button-logout {
+    background-color: var(--button-logout-bg);
+}
+
+.button-login:hover {
+    background-color: var(--button-login-hover-bg);
+}
+
+.button-logout:hover {
+    background-color: var(--button-logout-hover-bg);
+}
+
+.button:hover {
+    transition: all ease-in-out 0.5s;
+}
+
+/* Estilo para la card del login más angosta */
+.login-card-narrow {
+    max-width: 12.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--accent-color); /* Blanco */
+    border: 1px solid var(--primary-color); /* Borde azul turquesa */
+}
+
+/* Opcional: Ajustar el padding interno para más compacto */
+.login-card-narrow .card-body {
+    padding: 0.5rem;
+}
+
+/* Estilos para botones y enlaces en login */
+.btn-primary {
+    background-color: var(--primary-color); /* Azul turquesa */
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--button-login-hover-bg); /* Variante más oscura */
+    border-color: var(--button-login-hover-bg);
+}
+
+.link-primary {
+    color: var(--primary-color); /* Azul turquesa */
+}
+
+.link-primary:hover {
+    color: var(--button-login-hover-bg); /* Variante más oscura para hover */
+}
+
+/* Opcional: Ajustar el navbar si lo usas */
+.navbar {
+    background-color: var(--primary-color) !important; /* Navbar azul turquesa */
+}
+
+/* Estilos personalizados para los botones del navbar */
+.btn-success {
+    background-color: #28A745; /* Verde para Login, como pediste */
+    border-color: #28A745;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Variante más oscura para hover */
+    border-color: #218838;
+}
+
+.btn-danger {
+    background-color: #BC0505; /* Rojo para Logout, como pediste */
+    border-color: #BC0505;
+}
+
+.btn-danger:hover {
+    background-color: #F80606; /* Variante más oscura para hover */
+    border-color: #F80606;
+}
