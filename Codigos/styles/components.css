@@ -1,4 +1,6 @@
 /* components.css */
+
+/* Estilo para títulos */
 .title.text {
     color: var(--neutral-lavender); /* Lavanda grisácea para títulos, pero manteniendo tu paleta original si prefieres, puedes cambiar a aliceblue */
     text-decoration: underline;
@@ -12,10 +14,10 @@
 }
 
 footer {
-    color: var(--footer-text-color);
-    background: var(--footer-bg-color);
-    margin-top: 3rem;
-    padding: 2.5rem;
+    color: #FFFFFF; /* Letras blancas, según tu solicitud */
+    background: var(--footer-bg-color); /* Usará #686363 definido en colors.css */
+    margin-top: 0.02rem; /* Aumentado en 2cm (aproximadamente 2rem) */
+    padding: 0.2rem;
 }
 
 .button {
@@ -83,7 +85,7 @@ footer {
 
 /* Opcional: Ajustar el navbar si lo usas */
 .navbar {
-    background-color: var(--primary-color) !important; /* Navbar azul turquesa */
+    background-color: #A91D8D !important; /* Navbar magenta, según tu solicitud */
 }
 
 /* Estilos personalizados para los botones del navbar */
@@ -105,4 +107,13 @@ footer {
 .btn-danger:hover {
     background-color: #F80606; /* Variante más oscura para hover */
     border-color: #F80606;
+}
+
+/* Asegurarnos de que los enlaces en el navbar sean blancos */
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #FFFFFF; /* Mantener blanco en hover, o puedes usar una variante más clara si prefieres */
 }
