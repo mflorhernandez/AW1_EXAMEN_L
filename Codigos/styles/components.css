@@ -1,8 +1,6 @@
 /* components.css */
-
-/* Estilo para títulos */
 .title.text {
-    color: var(--neutral-lavender); /* Lavanda grisácea para títulos, pero manteniendo tu paleta original si prefieres, puedes cambiar a aliceblue */
+    color: var(--neutral-lavender); /
     text-decoration: underline;
     font-size: 50px;
     font-weight: bolder;
@@ -10,14 +8,14 @@
 }
 
 #bts {
-    color: var(--primary-color); /* Azul turquesa para acentos, ajustando por consistencia */
+    color: var(--primary-color); 
 }
 
 footer {
-    color: #FFFFFF; /* Letras blancas, según tu solicitud */
-    background: var(--footer-bg-color); /* Usará #686363 definido en colors.css */
-    margin-top: 0.02rem; /* Aumentado en 2cm (aproximadamente 2rem) */
-    padding: 0.2rem;
+    color: #FFFFFF; 
+    background: var(--footer-bg-color); 
+    margin-top: 0.5rem; 
+    padding: 0.2rem; 
 }
 
 .button {
@@ -55,8 +53,8 @@ footer {
     max-width: 12.5rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--accent-color); /* Blanco */
-    border: 1px solid var(--primary-color); /* Borde azul turquesa */
+    background-color: var(--accent-color); 
+    border: 1px solid var(--primary-color); 
 }
 
 /* Opcional: Ajustar el padding interno para más compacto */
@@ -64,38 +62,38 @@ footer {
     padding: 0.5rem;
 }
 
-/* Estilos para botones y enlaces en login */
+/* Estilos para botones y enlaces en login y cards */
 .btn-primary {
-    background-color: var(--primary-color); /* Azul turquesa */
-    border-color: var(--primary-color);
+    background-color: #00ADA7; /* botones Agregar */
+    border-color: #00ADA7; 
 }
 
 .btn-primary:hover {
-    background-color: var(--button-login-hover-bg); /* Variante más oscura */
-    border-color: var(--button-login-hover-bg);
+    background-color: #008C87; 
+    border-color: #008C87; 
 }
 
 .link-primary {
-    color: var(--primary-color); /* Azul turquesa */
+    color: var(--primary-color); 
 }
 
 .link-primary:hover {
-    color: var(--button-login-hover-bg); /* Variante más oscura para hover */
+    color: var(--button-login-hover-bg); 
 }
 
-/* Opcional: Ajustar el navbar si lo usas */
+
 .navbar {
-    background-color: #A91D8D !important; /* Navbar magenta, según tu solicitud */
+    background-color: #A91D8D !important; 
 }
 
-/* Estilos personalizados para los botones del navbar */
+/* Estilos botones del navbar */
 .btn-success {
-    background-color: #28A745; /* Verde para Login, como pediste */
+    background-color: #28A745; /* Verde para Login */
     border-color: #28A745;
 }
 
 .btn-success:hover {
-    background-color: #218838; /* Variante más oscura para hover */
+    background-color: #218838; 
     border-color: #218838;
 }
 
@@ -116,4 +114,39 @@ footer {
 
 .nav-link:hover {
     color: #FFFFFF; /* Mantener blanco en hover, o puedes usar una variante más clara si prefieres */
+}
+
+/* Estilo para las cards */
+.card {
+    background-color: #FFFADD; /* Color crema claro para las cards */
+    padding: 0.5rem; /* Reducir el padding general de las cards para que sean más pequeñas */
+    border-radius: 15px; /* Bordes redondeados para toda la card */
+}
+
+/* Estilo para el cuerpo de las cards */
+.card-body {
+    padding: 0.5rem; /* Reducir el padding interno del cuerpo para que sea más compacto */
+    border-radius: 0; /* Evitar bordes redondeados innecesarios en el cuerpo, ya que heredará del card */
+}
+
+/* Estilo para los encabezados de las cards */
+.card-header {
+    background-color: #D067D8; /* Fondo púrpura para los títulos de las cards */
+    padding: 0.5rem; /* Reducir el padding del encabezado para que sea más compacto */
+    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en las esquinas superiores */
+}
+
+/* Estilo para el pie de las cards (si aplica) */
+.card-footer {
+    padding: 0.5rem; /* Reducir el padding del pie para que sea más compacto */
+    border-radius: 0 0 15px 15px; /* Bordes redondeados solo en las esquinas inferiores */
+}
+
+/* Estilo para los títulos de las cards de destinos */
+.card-title {
+    background-color: #D067D8; /* Fondo púrpura para los títulos de las cards de destinos */
+    color: #FFFFFF; /* Letras blancas para contraste */
+    padding: 0.5rem; /* Mismo padding que card-header para consistencia */
+    border-radius: 15px 15px 0 0; /* Bordes redondeados en las esquinas superiores, igual que card-header */
+    margin-bottom: 0.5rem; /* Espacio debajo del título para separarlo del contenido */
 }
