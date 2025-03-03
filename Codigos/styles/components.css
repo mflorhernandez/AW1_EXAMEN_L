@@ -1,16 +1,20 @@
 /* components.css */
+
+/* Estilo para títulos generales de la aplicación */
 .title.text {
-    color: var(--neutral-lavender); /
+    color: var(--neutral-lavender); 
     text-decoration: underline;
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
 }
 
+/* Estilo para elementos específicos con ID bts */
 #bts {
     color: var(--primary-color); 
 }
 
+/* Estilo para el footer de la página */
 footer {
     color: #FFFFFF; 
     background: var(--footer-bg-color); 
@@ -18,53 +22,97 @@ footer {
     padding: 0.2rem; 
 }
 
+/* Estilo base para botones reutilizables */
 .button {
-    height: 30px;
-    width: 70px;
-    border: 0px;
-    border-radius: 15px;
-    font-weight: bolder;
-    color: white;
-    cursor: pointer;
+    height: 30px; 
+    width: 70px; 
+    border: 0px; 
+    border-radius: 50px; 
+    font-weight: bolder; 
+    color: white; 
+    cursor: pointer; 
 }
 
+/* Estilo para el botón de Login */
 .button-login {
-    background-color: var(--button-login-bg);
+    background-color: var(--button-login-bg); 
 }
 
+/* Estilo para el botón de Log Out */
 .button-logout {
-    background-color: var(--button-logout-bg);
+    background-color: var(--button-logout-bg); 
 }
 
+/* Efecto hover para el botón de Login */
 .button-login:hover {
-    background-color: var(--button-login-hover-bg);
+    background-color: var(--button-login-hover-bg); 
 }
 
+/* Efecto hover para el botón de Log Out */
 .button-logout:hover {
-    background-color: var(--button-logout-hover-bg);
+    background-color: var(--button-logout-hover-bg); 
 }
 
+/* Transición suave para todos los botones */
 .button:hover {
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 1s; 
 }
 
-/* Estilo para la card del login más angosta */
+/* Estilo para la card del login y registrar*/
 .login-card-narrow {
-    max-width: 12.5rem;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 25rem; 
+    margin-left: auto; 
+    margin-right: auto; 
     background-color: var(--accent-color); 
-    border: 1px solid var(--primary-color); 
+    border: 15px solid var(--primary-color); 
+    border-radius: 15px;
+    margin-top: 8%; 
 }
 
-/* Opcional: Ajustar el padding interno para más compacto */
+/* Ajuste del padding interno de la card del login y registrar */
 .login-card-narrow .card-body {
+    padding: 3rem; 
+}
+
+/* Estilo para las cards generales (incluyendo signup) */
+.card {
+    background-color: var(--accent-color); 
     padding: 0.5rem;
+    border-radius: 15px; 
+    margin-top: 20%;
+}
+
+/* Estilo para las cards */
+.card-body {
+    padding: 0.5rem; 
+    border-radius: 0; 
+}
+
+/* Estilo para los encabezados de las cards */
+.card-header {
+    background-color: #D067D8; 
+    padding: 0.5rem; 
+    border-radius: 15px 15px 0 0; 
+}
+
+/* Estilo para el pie de las cards */
+.card-footer {
+    padding: 0.5rem; 
+    border-radius: 0 0 15px 15px; 
+}
+
+/* Estilo para los títulos de las cards de destinos */
+.card-title {
+    background-color: #D067D8; 
+    color: #FFFFFF; 
+    padding: 0.5rem; 
+    border-radius: 15px 15px 0 0; 
+    margin-bottom: 0.8rem; 
 }
 
 /* Estilos para botones y enlaces en login y cards */
 .btn-primary {
-    background-color: #00ADA7; /* botones Agregar */
+    background-color: #00ADA7; 
     border-color: #00ADA7; 
 }
 
@@ -81,14 +129,14 @@ footer {
     color: var(--button-login-hover-bg); 
 }
 
-
+/* Estilo para la barra de navegación */
 .navbar {
     background-color: #A91D8D !important; 
 }
 
-/* Estilos botones del navbar */
+/* Estilos personalizados para los botones del navbar */
 .btn-success {
-    background-color: #28A745; /* Verde para Login */
+    background-color: #28A745; 
     border-color: #28A745;
 }
 
@@ -98,55 +146,20 @@ footer {
 }
 
 .btn-danger {
-    background-color: #BC0505; /* Rojo para Logout, como pediste */
+    background-color: #BC0505; 
     border-color: #BC0505;
 }
 
 .btn-danger:hover {
-    background-color: #F80606; /* Variante más oscura para hover */
+    background-color: #F80606; 
     border-color: #F80606;
 }
 
 /* Asegurarnos de que los enlaces en el navbar sean blancos */
 .nav-link {
-    color: #FFFFFF !important;
+    color: #FFFFFF !important; 
 }
 
 .nav-link:hover {
-    color: #FFFFFF; /* Mantener blanco en hover, o puedes usar una variante más clara si prefieres */
-}
-
-/* Estilo para las cards */
-.card {
-    background-color: #FFFADD; /* Color crema claro para las cards */
-    padding: 0.5rem; /* Reducir el padding general de las cards para que sean más pequeñas */
-    border-radius: 15px; /* Bordes redondeados para toda la card */
-}
-
-/* Estilo para el cuerpo de las cards */
-.card-body {
-    padding: 0.5rem; /* Reducir el padding interno del cuerpo para que sea más compacto */
-    border-radius: 0; /* Evitar bordes redondeados innecesarios en el cuerpo, ya que heredará del card */
-}
-
-/* Estilo para los encabezados de las cards */
-.card-header {
-    background-color: #D067D8; /* Fondo púrpura para los títulos de las cards */
-    padding: 0.5rem; /* Reducir el padding del encabezado para que sea más compacto */
-    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en las esquinas superiores */
-}
-
-/* Estilo para el pie de las cards (si aplica) */
-.card-footer {
-    padding: 0.5rem; /* Reducir el padding del pie para que sea más compacto */
-    border-radius: 0 0 15px 15px; /* Bordes redondeados solo en las esquinas inferiores */
-}
-
-/* Estilo para los títulos de las cards de destinos */
-.card-title {
-    background-color: #D067D8; /* Fondo púrpura para los títulos de las cards de destinos */
-    color: #FFFFFF; /* Letras blancas para contraste */
-    padding: 0.5rem; /* Mismo padding que card-header para consistencia */
-    border-radius: 15px 15px 0 0; /* Bordes redondeados en las esquinas superiores, igual que card-header */
-    margin-bottom: 0.5rem; /* Espacio debajo del título para separarlo del contenido */
+    color: #FFFFFF; 
 }
