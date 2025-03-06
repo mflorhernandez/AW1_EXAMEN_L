@@ -1,8 +1,8 @@
 const navElements = [
     { title: "Home", link: "../home/home.html" },
-    { title: "Alojamiento", link: "../home/home.html" },
-    { title: "Paquete", link: "../home/home.html" },
-    { title: "Asistencia al viajero", link: "../home/home.html" }
+    { title: "Alojamiento", link: "../alojamiento/alojamiento.html" },
+    { title: "Paquete", link: "../paquete/paquete.html" },
+    { title: "Asistencia al viajero", link: "../asistencia/asistencia.html" }
 ];
 
 export const navBar = `
@@ -21,10 +21,10 @@ export const navBar = `
                     `).join("")}
                 </ul>
                 <div class="d-flex"> <!-- Contenedor flex para los botones, ahora al lado derecho -->
-                    <button class="btn btn-success me-2" id="login-btn" style="background-color: #28A745; border-color: #28A745;"><i class="bi bi-box-arrow-in-right"></i> Login</button>
-                    <button class="btn btn-danger" id="logout-btn" style="background-color: #BC0505; border-color: #BC0505;"><i class="bi bi-box-arrow-left"></i> Log Out</button>
+                    <button class="btn btn-success me-2" id="login-btn"><i class="bi bi-box-arrow-in-right"></i> Login</button>
+                    <button class="btn btn-danger" id="logout-btn"><i class="bi bi-box-arrow-left"></i> Log Out</button>
                 </div>
             </div>
         </div>
     </nav>
-`;
+`;  

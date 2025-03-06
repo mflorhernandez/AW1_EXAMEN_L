@@ -136,23 +136,25 @@ footer {
 
 /* Estilos personalizados para los botones del navbar */
 .btn-success {
-    background-color: #28A745; 
-    border-color: #28A745;
+    background-color: #218838; 
+    border-color: #218838;
+    transition: all ease-in-out 0.5s; /* Transición suave para el hover */
 }
 
 .btn-success:hover {
-    background-color: #218838; 
+    background-color: #28A745; 
     border-color: #218838;
 }
 
 .btn-danger {
     background-color: #BC0505; 
     border-color: #BC0505;
+    transition: all ease-in-out 0.5s; /* Transición suave para el hover */
 }
 
 .btn-danger:hover {
     background-color: #F80606; 
-    border-color: #F80606;
+    border-color: #BC0505;
 }
 
 /* Asegurarnos de que los enlaces en el navbar sean blancos */
@@ -162,4 +164,18 @@ footer {
 
 .nav-link:hover {
     color: #FFFFFF; 
+}
+
+/* Estilo para las cards de asistencia al viajero */
+.asistencia-card {
+    background-color: #FFFFFF; /* Fondo blanco como en la captura */
+    border-left: 10px solid #FF8C00; /* Borde naranja a la izquierda como en la captura */
+    border-radius: 20px; /* Bordes más redondeados como en la captura */
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen a los hijos */
+}
+
+/* Estilo para el logo ASSIST CARD en las cards de asistencia */
+.assist-logo {
+    color: #FF0000; /* Rojo para el texto ASSIST CARD */
+    font-weight: bold; /* Negrita para destacar */
 }

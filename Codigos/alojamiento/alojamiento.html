@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../Codigos/styles/style.css"> <!-- Ajuste para subir dos niveles desde Codigos/alojamiento/ -->
+    <title>Alojamiento</title>
+</head>
+<body>
+    <header></header> 
+    <div class="container-fluid">
+        <h1 class="text mt-5">Las mejores ofertas de hoteles en los destinos más populares</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-5 mx-2">
+            <!-- Primera card de hotel -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.kayak.com.ar/rimg/himg/52/a3/74/expedia_group-431509-912721-784856.jpg?width=1366&height=768&crop=true" alt="Hotel 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Riu Cancún</h5>
+                        <p class="card-text">Ubicado en una playa paradisíaca<br>
+                            Habitaciones con vista al mar<br>
+                            All inclusive<br>
+                            7 noches de alojamiento</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">usd 1800</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="180" data-title="Hotel Playa Dorada">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda card de hotel -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/fe/c7/06/hotel-xcaret-arte.jpg?w=900&h=-1&s=1" alt="Hotel 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Xcaret Arte</h5>
+                        <p class="card-text">Ubicado en la playa paradísiaca de Playa del Carmen<br>
+                            All inclusive <br>
+                            Piscina y spa<br>
+                            Acceso a todos los parques Xcaret <br>
+                            Wi-Fi gratuito<br>
+                            5 noches de alojamiento</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$3500</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="150" data-title="Hotel Sol Caribe">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercera card de hotel -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/3b/bf/f97b06fb16e12622f6a325844c7716e2d8a21a7ac7ec3e7d898e2ef20266.jpeg" alt="Hotel 3" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Iberostar Varadero</h5>
+                        <p class="card-text">Ubicado frente al mar<br>
+                            All inclusive <br>
+                            Restaurante gourmet<br>
+                            Gimnasio incluido<br>
+                            10 noches de alojamiento</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$2200</p>
+                            </div>
+                            <div class="col">   
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="220" data-title="Hotel Mar Azul">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuarta card de hotel -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/28/96/be/caption.jpg?w=1200&h=-1&s=1" alt="Hotel 4" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Riu Punta Cana</h5>
+                        <p class="card-text">Ubicado en un resort tropical<br>
+                            All inclusive <br>
+                            Piscina infinita<br>
+                            Actividades recreativas<br>
+                            8 noches de alojamiento</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$2000</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="200" data-title="Hotel Oasis">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text mt-5">Las mejores ofertas en alquileres temporarios</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-5 mx-2">
+            <!-- Primera card de alquiler temporario -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/36/5d/c7/churchill-suites-monte.jpg?w=1200&h=-1&s=1" alt="Alquiler 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Apartamento Playa Maiami</h5>
+                        <p class="card-text">Apartamento con vista al mar<br>
+                            Cocina equipada<br>
+                            Wi-Fi gratuito<br>
+                            7 días de alquiler</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$1200</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="120" data-title="Apartamento Playa">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda card de alquiler temporario -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/524252134.jpg?k=4b74896dc565d6c10854406a3f639fb86e1d83bd8b5635a5d6d97f7698cfbe31&o=&hp=1" alt="Alquiler 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa Montaña Bariloche</h5>
+                        <p class="card-text">Casa en las montañas<br>
+                            Jardín privado<br>
+                            Calefacción<br>
+                            5 días de alquiler</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$1000</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="100" data-title="Casa Montaña">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercera card de alquiler temporario -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max300/314518200.jpg?k=e5e1189143b40a61d8e40a2d59605bc3cf01be48d45b619e604df730f09f412c&o=" alt="Alquiler 3" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Departamento temporario Cartagena de Indias</h5>
+                        <p class="card-text">Villa con piscina privada<br>
+                            Vista al océano<br>
+                            Cocina completa<br>
+                            10 días de alquiler</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$18 por noche</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="180" data-title="Villa Tropical">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuarta card de alquiler temporario -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/318137363.jpg?k=5449be036b8f4f402b8d7330601eac06f56921b67d6debf24f50d8b81676598b&o=&hp=1" alt="Alquiler 4" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Departamento Punta del Este</h5>
+                        <p class="card-text">Departamento en el centro<br>
+                            Wi-Fi y TV por cable<br>
+                            Gimnasio en el edificio<br>
+                            6 días de alquiler</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$600</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="130" data-title="Departamento Urbano">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="../index.js"></script> 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            updateCart();
+
+            document.querySelectorAll(".add-to-cart").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const input = btn.closest(".card-footer").querySelector(".quantity");
+                    const quantity = parseInt(input.value);
+                    const price = parseFloat(input.dataset.price);
+                    const title = input.dataset.title;
+
+                    if (quantity > 0) {
+                        const item = { title, price, quantity };
+                        const existingItem = cart.find(i => i.title === title);
+                        if (existingItem) {
+                            existingItem.quantity += quantity;
+                        } else {
+                            cart.push(item);
+                        }
+                        localStorage.setItem("cart", JSON.stringify(cart));
+                        updateCart();
+                    }
+                });
+            });
+
+            function updateCart() {
+                const cartItems = document.getElementById("cart-items");
+                const cartTotal = document.getElementById("cart-total");
+                cartItems.innerHTML = "";
+                let total = 0;
+
+                cart.forEach(item => {
+                    total += item.price * item.quantity;
+                    const li = document.createElement("li");
+                    li.classList.add("list-group-item");
+                    li.textContent = `${item.title} - Cantidad: ${item.quantity} - $${item.price * item.quantity}`;
+                    cartItems.appendChild(li);
+                });
+
+                cartTotal.textContent = total.toFixed(2);
+            }
+
+            document.getElementById("checkout-btn").addEventListener("click", () => {
+                if (cart.length > 0) {
+                    alert("Compra finalizada. Gracias por elegirnos!");
+                    cart = [];
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    updateCart();
+                }
+            });
+        });
+    </script>
+    <footer>
+        <script type="module" src="../componentes/footer.js"></script>
+    </footer> 
+</body>
+</html>

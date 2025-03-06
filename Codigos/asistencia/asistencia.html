@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../Codigos/styles/style.css"> <!-- Ajuste para subir dos niveles desde Codigos/asistencia/ -->
+    <title>Asistencia al Viajero</title>
+</head>
+<body>
+    <header></header> <!-- Contenedor para el navbar con "Login" y "Log Out" -->
+    <div class="container-fluid">
+        <h1 class="text-center mt-5">Asistencia al Viajero</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-5 mx-2">
+            <!-- Primera card de asistencia: América -->
+            <div class="col">
+                <div class="card asistencia-card">
+                    <img src="https://segurarse.com.ar/blog/wp-content/uploads/2022/07/f.elconfidencial.com_original_c4e_19c_07d_c4e19c07d6aa72567047e63bd5c40ce3-1024x768.jpg" alt="Asistencia América" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Asistencia al viajero por América</h5>
+                        <p class="card-text"><span class="assist-logo">ASSIST CARD</span></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$1,200</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="1200" data-title="Asistencia América">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda card de asistencia: Europa y África -->
+            <div class="col">
+                <div class="card asistencia-card">
+                    <img src="https://www.universal-assistance.com/uablog/wp-content/uploads/2022/07/blog-europa_webp.jpg" alt="Asistencia Europa y África" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Asistencia al viajero por Europa y África</h5>
+                        <p class="card-text"><span class="assist-logo">ASSIST CARD</span></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$1,050</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="1050" data-title="Asistencia Europa y África">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercera card de asistencia: Asia y Oceanía -->
+            <div class="col">
+                <div class="card asistencia-card">
+                    <img src="https://www.omintassistance.com.ar/blog/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-09-at-16.25.12-1024x682.jpeg" alt="Asistencia Asia y Oceanía" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Asistencia al viajero por Asia y Oceanía</h5>
+                        <p class="card-text"><span class="assist-logo">ASSIST CARD</span></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$800</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="800" data-title="Asistencia Asia y Oceanía">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuarta card de asistencia: Destino elegido -->
+            <div class="col">
+                <div class="card asistencia-card">
+                    <img src="https://www.goassistance.com/images/jch-optimize/ng/images_asistencia-viajero-internacional.webp" alt="Asistencia Destino Elegido" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">¡Viajá protegido al destino que elijas!</h5>
+                        <p class="card-text"><span class="assist-logo">ASSIST CARD</span></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center align-items-center">
+                            <div class="col">
+                                <p class="price">$1,500</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control quantity" min="0" max="6" placeholder="0" data-price="1500" data-title="Asistencia Destino Elegido">
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Información adicional debajo de las cards (basado en una suposición, ajusta según la segunda foto) -->
+        <div class="container mt-5">
+            <div class="text-center">
+                <p class="text-muted">*Los planes de asistencia al viajero incluyen cobertura médica de emergencia, evacuación sanitaria, pérdida de equipaje y cancelación de viaje. Consulta términos y condiciones para más detalles. Precios sujetos a cambios según destino y duración.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="../index.js"></script> 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            updateCart();
+
+            document.querySelectorAll(".add-to-cart").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const input = btn.closest(".card-footer").querySelector(".quantity");
+                    const quantity = parseInt(input.value);
+                    const price = parseFloat(input.dataset.price);
+                    const title = input.dataset.title;
+
+                    if (quantity > 0) {
+                        const item = { title, price, quantity };
+                        const existingItem = cart.find(i => i.title === title);
+                        if (existingItem) {
+                            existingItem.quantity += quantity;
+                        } else {
+                            cart.push(item);
+                        }
+                        localStorage.setItem("cart", JSON.stringify(cart));
+                        updateCart();
+                    }
+                });
+            });
+
+            function updateCart() {
+                const cartItems = document.getElementById("cart-items");
+                const cartTotal = document.getElementById("cart-total");
+                cartItems.innerHTML = "";
+                let total = 0;
+
+                cart.forEach(item => {
+                    total += item.price * item.quantity;
+                    const li = document.createElement("li");
+                    li.classList.add("list-group-item");
+                    li.textContent = `${item.title} - Cantidad: ${item.quantity} - $${item.price * item.quantity}`;
+                    cartItems.appendChild(li);
+                });
+
+                cartTotal.textContent = total.toFixed(2);
+            }
+
+            document.getElementById("checkout-btn").addEventListener("click", () => {
+                if (cart.length > 0) {
+                    alert("Compra finalizada. Gracias por elegirnos!");
+                    cart = [];
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    updateCart();
+                }
+            });
+        });
+    </script>
+    <footer>
+        <script type="module" src="../componentes/footer.js"></script>
+    </footer> 
+</body>
+</html>
